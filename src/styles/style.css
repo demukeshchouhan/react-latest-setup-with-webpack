@@ -1,0 +1,27 @@
+body {
+  background-color: teal;
+  margin: 0 auto;
+  max-width: 990px;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 5px;
+}
+
+.pure-menu-link {
+  color: #2de0e0;
+}
+
+.pure-menu-link:hover,
+.pure-menu-link:focus,
+.pure-menu-link:active {
+  color: #ffeb3b;
+  background: #2de0e0;
+}
